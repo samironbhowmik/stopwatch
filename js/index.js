@@ -36,11 +36,11 @@ const times = () => {
     second = parseInt(second);
     milisecond = parseInt(milisecond);
 
-    // milisecond+=10;
-    // if (milisecond==100) {
-    //   second += 1;
-    //   milisecond = 0;
-    // }
+    milisecond+=10;
+    if (milisecond==100) {
+      second += 1;
+      milisecond = 0;
+    }
 
     second += 1
     if (second == 60) {
@@ -55,7 +55,7 @@ const times = () => {
 
     // if(milisecond<100)
     // {
-    //     milisecond = "00" + milisecond
+    //     // milisecond = "00" + milisecond
     //     milisecond = "0" + milisecond
     // }
 

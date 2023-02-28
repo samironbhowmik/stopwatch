@@ -1,0 +1,67 @@
+*{
+    margin:0px
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    flex-direction: column;
+}
+
+#stopwatch{
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 50px 60px;
+    font-size: 140px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+button{
+    padding: 40px 79px;
+    font-size: 18px;
+    margin: 10px 12px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: rgb(170, 170, 170);
+    /* color: white; */
+}
+#start:hover{
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+}
+
+#pause{
+    background-color: rgb(170, 170, 170);
+}
+#pause:hover{
+    background-color: red;
+    color: white;
+    transition: 0.4s;
+}
+
+#reset{
+    background-color: rgb(170, 170, 170);
+}
+#reset:hover{
+    background-color: red;
+    color: white;
+    transition: 0.4s;
+}
+
+#cast{
+    background-color: rgb(170, 170, 170);
+}
+#cast:hover{
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+}
